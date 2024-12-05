@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Dev Quiz App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+    <div id="level-container">
+      <button id="easy-button">Easy</button>
+      <button id="medium-button">Medium</button>
+      <button id="hard-button">Hard</button>
+    </div>
+    <div id="question-container" class="hide">
+      <p id="question-text"></p>
+      <div id="answer-buttons"></div>
+    </div>
+    <div id="controls-container">
+      <button id="start-button" class="hide">Start Quiz</button>
+      <div id="timer-container">
+        <span id="timer-text">Time Left: <span id="timer">0</span></span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" defer data-deferred="1"></script>
+</body>
+</html>
